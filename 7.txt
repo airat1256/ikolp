@@ -1,0 +1,7 @@
+ elif operation == "*":
+      result = num1 * num2
+    elif operation == "/":
+      if num2 == 0:
+        label_result.config(text="Деление на ноль невозможно!")
+        return
+      else:
